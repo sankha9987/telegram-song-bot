@@ -3,3 +3,4 @@ yt-dlp
 gunicorn
 flask 
 requests
+nest_asyncio
