@@ -121,7 +121,7 @@ async def send_periodic_song(app):
 
 # === Main ===
 async def main():
-    app = ApplicationBuilder().token("7550948741:AAF3hflHHQKBKjuAT0MX6Ux9XbRDn_ER3NU").build()
+    app = ApplicationBuilder().token("7550948741:AAHUklo6hpHq6YhVmD5hzZmpPO6nPJdqM7Q").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("song", song))
