@@ -9,5 +9,5 @@ def hello_world():
     return 'This bot is made by @SrijanMajumdar and currently it hosted and live for everyone'
 
 # Run the application
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run()
